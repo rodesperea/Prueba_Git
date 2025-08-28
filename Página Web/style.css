@@ -1,0 +1,245 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+}
+#contenedor {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.barraSup {
+    width: 900px;
+    height: 40px;
+    padding: 20px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil {
+    padding: 10px;
+    width: 40%;
+}
+.perfil a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    text-align: center;
+}
+.menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.menu li a:hover, .perfil a:hover {
+    color: #fc6cad
+}
+#menu1 {
+    width: 70px;
+}
+#menu2 {
+    width: 90px;
+}
+#menu3 {
+    width: 100px;
+}
+#menu4 {
+    width: 120px;
+}
+button {
+    width: 120px;
+    height: 35px;
+    margin: 0 0 0 10px;
+    background-color: #00bcd5;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    font-style: normal;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+button:hover {
+    color: #000000
+}
+#descripcion {
+    width: 910px;
+    height: 700px;
+    margin: 15px 0 0 0;
+    padding: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+}
+.barra {
+    width: 540px;
+    height: 90px;
+    background-color: #00bcd5;
+    border-radius: 10px 10px 0 0;
+}
+.contenido {
+    width: 440px;
+    height: 180px;
+    padding: 60px 50px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 1px 5px #c1c1c1;
+    position: relative;
+}
+.contenido img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: #ffffff;
+    position: absolute;
+    top: -45px;
+    left: 40px;
+}
+.contenido h1 {
+    font-size: x-large;
+    font-weight: bold;
+    color: #333333;
+}
+.contenido p, .educacion p {
+    font-size: 14px;
+    color: #000000 ;
+}
+.contenido input {
+    border: none;
+    background-color: #ffffff;
+    color: #3490b9;
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;
+}
+.material-symbols-outlined {/*Símbolo de tuerquita*/
+    font-size: 15px;
+    color: #3490b9;
+    position: relative;
+    top: 3px;
+}
+.contenido a {
+    text-decoration: none;
+    color: #3490b9;
+    font-size: 12px;
+    font-weight: 450;
+}
+.educacion {
+    width: 500px;
+    height: 90px;
+    padding: 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px #c1c1c1;
+    position: absolute;
+    top: 410px;
+}
+.educacion h2, .solicitudes h2, .conexiones h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
+.solicitudes {
+    width: 290px;
+    height: 150px;
+    padding: 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px #c1c1c1;
+    position: absolute;
+    top: 3px;
+    left: 590px;
+}
+.amigos1 img, .amigos2 img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 30%;
+    border-color: #00bcd5;
+    position: relative;
+}
+.amigos1 img, .amigos2 img {
+    top: 15px;
+    left: 10px;
+}
+.amigos1 p, .amigos2 p {
+    font-weight: normal;
+    position: relative;
+    top: -20px;
+    left: 65px;
+}
+.amigos1 button {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    margin: 0;
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+.amigos1-a .aceptar {
+    top: 62px;
+    left: 215px;
+    background-image: url(img/aceptar.png);
+}
+.amigos1-b .aceptar {
+    top: 126px;
+    left: 215px;
+    background-image: url(img/aceptar.png);
+}
+.amigos1-a .aceptar:hover, .amigos1-b .aceptar:hover {
+    background-image: url(img/aceptar.hover.png);
+}
+.amigos1-a .rechazar {
+    top: 62px;
+    left: 270px;
+    background-image: url(img/rechazar.png);
+}
+.amigos1-b .rechazar {
+    top: 126px;
+    left: 270px;
+    background-image: url(img/rechazar.png);
+}
+.amigos1-a .rechazar:hover, .amigos1-b .rechazar:hover {
+    background-image: url(img/rechazar.hover.png);
+}
+.conexiones {
+    width: 290px;
+    height: 370px;
+    padding: 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px #c1c1c1;
+    position: absolute;
+    top: 220px;
+    left: 590px;
+}
+.amigos2 div {
+    height: 55px;
+}
+.amigos2 img {
+    border-radius: 50%;
+    border-color: #000000;
+}
+.amigos2 p {
+    left: 62px;
+}
